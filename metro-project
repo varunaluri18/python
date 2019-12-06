@@ -1,0 +1,23 @@
+   import time
+mertro_stations=["miyapur","jntu","kphb","kukatpalli","balanagar","moosapet","bharatnagar","yerragadda","esi","srnagar","ammerpet"]
+first_station="miyapur"
+mmts_station="bharatnagar"
+last_station="ammerpeet"
+for idx,station in enumerate(mertro_stations):
+    next_station=mertro_stations[idx+1] if len(mertro_stations!=idx+1) else None 
+    if(station=="miyapur"):
+        print("Welcome to hyd-metro")
+        print("Train is starting from miyapur")
+    elif(station=="kphb"):
+        print("sorry train is not going to stop in KPHB")
+    elif(station=="ammerpet"):
+        print("Ammerpet is the last stop")
+        break
+    else:
+        print("Train stopping in %s"%station )
+        time.sleep(2)
+        print("Train is going to start from %s"%station)
+    print("next station is %s"%next_station)
+    if next_station==mmts_station:
+        print("change for mmts services")
+    time.sleep(3)
