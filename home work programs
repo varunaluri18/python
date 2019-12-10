@@ -1,4 +1,5 @@
-#1 program
+#1 program:Write a program to read the character continiously  untill $ is given and display the number of characters entered?
+
 count=0
 while True:
     ch = input("Enter character")
@@ -24,7 +25,7 @@ else:
     else:
         print("its an lower")
 _______________________________________________
-#3 program
+#3 program:
 ch=input("Enter char")
 if (ch==ch.upper()):
     print(ch.lower())
