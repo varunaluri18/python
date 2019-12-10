@@ -1,4 +1,4 @@
-   import time
+import time
 mertro_stations=["miyapur","jntu","kphb","kukatpalli","balanagar","moosapet","bharatnagar","yerragadda","esi","srnagar","ammerpet"]
 first_station="miyapur"
 mmts_station="bharatnagar"
