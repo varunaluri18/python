@@ -14,7 +14,7 @@ while True:
             break
 print(count)
 __________________________________________
-#2 program
+!!!!!!!#2 program:Read a character and find out weather it is upper case or lower case or special charcter or digit?
 
 ch=input("Enter a char::")
 if len(ch)>1 or ch==int(ch.isdigit()):
@@ -25,11 +25,46 @@ else:
     else:
         print("its an lower")
 _______________________________________________
-#3 program:
+#3 program:Read a character and find out weather it is upper or lower case?
+
 ch=input("Enter char")
 if (ch==ch.upper()):
     print(ch.lower())
 elif(ch==ch.lower()):
     print(ch.upper())
 ______________________________________________
-#4 program
+!!!!!!!#4 program:Program to print 100 to 200 prime numbers using for and for-else?
+
+______________________________________________
+#5 Program:How do you check two LISTS are having same set of values and same number of values?
+
+a=[1,2,3,4,6,7,8,9,10]
+b=[1,2,4,1,2,3,4,9,7]
+if(len(a)==len(b)):
+    x=len(a)
+    print("length are equal")
+    for i in range(x):
+        if(a[i]==b[i]):
+            print("True")
+        else:
+            print("False")
+______________________________________________
+!!!!!!!#6 Program: list is supported 'n' natural numbers in it but one natural number is missing how do you find the missing value?         
+
+x=[1,2,3,4,6,7,8,9,10]
+a=0
+for i in x:
+    if(i==a+1):
+        print(i)
+        a+=1
+______________________________________________
+#7 Program:Square each element in the list and save it back to the location
+
+a=[2,6,1,5,3]
+for i in a:
+    b=i*i
+    print(b,end=",")
+print(a)            
+
+
+            
