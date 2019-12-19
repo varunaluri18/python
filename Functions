@@ -1,0 +1,19 @@
+#USD-CURRENCY CONVERTER
+def converter(amt,curr):
+    if(amt>=1 and curr=='INR'):
+       print(amt/71)
+    elif(amt>=1 and curr=='SGD'):
+        print(amt/1.36)
+    elif(amt>=1 and curr=='GBP'):
+        print(amt/0.76)
+    else:
+        print("your entry is wrong")
+money=input("Enter amount")
+money=float(money)
+print("choose the currency type from the list")
+a=['INR','SGD','GBP']
+for i in a:
+    print(i)
+country=input("Enter your country name")
+converter(money,country)
+___________________________________________________
