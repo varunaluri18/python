@@ -1,0 +1,31 @@
+def parent():
+    print('I am Parent')
+    def child():
+        print('I am Child')
+        return 'hai'
+    return child
+a=parent()
+x=a()    
+print(x) 
+_______________________________________________
+#Decorators
+
+def dec(var):
+    def new():
+        print("I am busy")
+    return new
+@dec
+def act():
+    print("Hi gd mng")
+act()
+_____________________________________________
+def dec(var):
+    def sub(x,y):
+        return x-y
+    return sub
+
+@dec
+def add(x,y):
+    return x+y
+
+print (add(3,2))
