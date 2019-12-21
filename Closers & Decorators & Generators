@@ -1,3 +1,5 @@
+#clousers
+
 def parent():
     print('I am Parent')
     def child():
@@ -29,3 +31,18 @@ def add(x,y):
     return x+y
 
 print (add(3,2))
+_____________________________________________
+#Generators
+
+def genereator(n):
+    i=0
+    while i<n:
+        yield i
+        i+=1
+        if i>6:
+            print('warning')    
+output=genereator(10)
+print(output)
+for i in output:
+    print(i)
+    
