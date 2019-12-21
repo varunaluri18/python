@@ -1,4 +1,4 @@
-#5 Program:How do you check two LISTS are having same set of values and same number of values?
+#1 Program:How do you check two LISTS are having same set of values and same number of values?
 
 a=[1,2,3,4,6,7,8,9,10]
 b=[1,2,4,1,2,3,4,9,7]
@@ -11,7 +11,7 @@ if(len(a)==len(b)):
         else:
             print("False")
 ______________________________________________
-!!!!!!!#6 Program: list is supported 'n' natural numbers in it but one natural number is missing how do you find the missing value?         
+#2 Program: list is supported 'n' natural numbers in it but one natural number is missing how do you find the missing value?         
 
 x=[1,2,3,4,6,7,8,9,10]
 a=0
@@ -20,7 +20,7 @@ for i in x:
         print(i)
         a+=1
 ______________________________________________
-#7 Program:Square each element in the list and save it back to the location
+#3 Program:Square each element in the list and save it back to the location
 
 a=[2,6,1,5,3]
 i=0
