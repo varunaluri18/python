@@ -33,8 +33,11 @@ if (ch==ch.upper()):
 elif(ch==ch.lower()):
     print(ch.upper())
 ______________________________________________
-!!!!!!!#4 program:Program to print 100 to 200 prime numbers using for and for-else?
+#4 program:Program to print 100 to 200 prime numbers?
 
-
-
-            
+for i in range(100,200):
+    for j in range(2,i+1):
+        if i%j==0:
+            if i==j:
+                print(i)
+            break
