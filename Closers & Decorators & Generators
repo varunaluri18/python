@@ -45,7 +45,7 @@ output=genereator(10)
 print(output)
 for i in output:
     print(i)
----------------------------
+________________________________________________
 Write a generator function to generate a Fibonacci series?
 
 Solution:
