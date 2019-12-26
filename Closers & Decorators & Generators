@@ -58,16 +58,3 @@ def fibo(Num):
 Num = input(‘Enter a number:’)
 for i in fibo(Num):
         print i   
--------------------   
-Write a generator function to generate a Fibonacci series?
-
-Solution:
-
-def fibo(Num):
-    a, b = 0, 1
-        for I in xrange(Num):
-        yield a,
-        a, b = b, a+b
-Num = input(‘Enter a number:’)
-for i in fibo(Num):
-        print i   
