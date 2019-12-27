@@ -1,0 +1,12 @@
+#ZIPPING
+state=['AP','TELANGANA']
+capital=['Amaravathi','Hyd']
+for s in zip(state,capital):
+    print(s)
+
+
+#UNZIPPING
+state=['AP','TELANGANA']
+capital=['Amaravathi','Hyd']
+for s,c in zip(state,capital):
+    print(s,'----------------------',c)
