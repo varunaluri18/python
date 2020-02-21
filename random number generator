@@ -1,2 +1,8 @@
 import random
-random.randint(100,200)
+a=[]
+for i in range(0,10):
+    temp=random.randint(6000000000, 9000000000) 
+    a.append (temp) 
+print(a, lena(a), type(a)) 
+phonenumber=set(a) 
+print (phonenumber, lena(phonenumber), type (phonenumber) ) 
