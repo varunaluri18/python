@@ -1095,4 +1095,3 @@ print(type(byte))
 string = byte.decode('UTF-8')  
 print(type(string))  
 print(string)
-
