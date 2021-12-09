@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Company>
+<Employee>
+ <Name>varun</Name>
+ <Phone>8978675645</Phone>
+ <Email>varun18@gmail.com</Email>
+</Employee>
+<Employee>
+ <Name>ishwarya</Name>
+ <Phone>2334455667</Phone>
+ <Email>ishbindu@gmail.com</Email>
+</Employee>
+<Employee>
+ <Name>sravani</Name>
+ <Phone>1029384756</Phone>
+ <Email>sravs@gmail.com</Email>
+</Employee>
+</Company>
